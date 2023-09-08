@@ -48,14 +48,14 @@ BOT_TOKEN = environ['BOT_TOKEN']
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
-USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', False))
-PICS = (environ.get('PICS', 'https://telegra.ph/file/2992a480cae2bc0de1c39.jpg https://telegra.ph/file/76e7b5e94430b84a3d2b2.jpg https://telegra.ph/file/3544a8773740b0412c9dd.jpg https://telegra.ph/file/4b1c7004ea8bd3fed8df9.jpg https://telegra.ph/file/a02e47d932adc336740fa.jpg')).split()
-NOR_IMG = environ.get('NOR_IMG', "https://telegra.ph/file/7d7cbf0d6c39dc5a05f5a.jpg")
-SPELL_IMG = environ.get('SPELL_IMG',"https://telegra.ph/file/b58f576fed14cd645d2cf.jpg")
+USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
+PICS = (environ.get('PICS', 'https://telegra.ph/file/16fb6c4f7a8c2807f5bf0.jpg')).split()
+NOR_IMG = environ.get('NOR_IMG', "https://telegra.ph/file/46443096bc6895c74a716.jpg")
+SPELL_IMG = environ.get('SPELL_IMG',"https://telegra.ph/file/5e2d4418525832bc9a1b9.jpg")
 
 # Welcome area
 MELCOW_IMG = environ.get('MELCOW_IMG',"https://telegra.ph/file/e54cae941b9b81f13eb71.jpg")
-MELCOW_VID = environ.get('MELCOW_VID',"")
+MELCOW_VID = environ.get('MELCOW_VID',"https://graph.org/file/8f0703c5e311183d1f4ff.mp4")
 
 
 
